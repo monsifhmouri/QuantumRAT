@@ -19,7 +19,7 @@
 
 ## Advanced Evasion Tactics
 
-- VM/sandbox detection (10+ techniques)  
+- VM / sandbox detection (10+ techniques)  
 - Debugger detection (IsDebuggerPresent)  
 - Behavioral analysis countermeasures  
 - Encrypted string obfuscation  
